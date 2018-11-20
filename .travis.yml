@@ -1,2 +1,7 @@
 language: csharp
-solution: ConsoleApp1.sln
+solution: ConsoleApp1.sln 
+install:
+  - nuget restore ConsoleApp1.sln 
+  script:
+  - xbuild /p:Configuration=Release ConsoleApp1.sln
+  - mono ./packages/NUnit.ConsoleRunner.3.9.0/tools/nunit3-console.exe ./ConsoleApp1Test/bin/Release/ConsoleApp1Test.dll
