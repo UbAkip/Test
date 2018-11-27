@@ -14,5 +14,11 @@ namespace ConsoleApp1
         {
             return x + x;
         }
+
+        public double minus(double x, double v)
+        {
+            return x - v;
+        }
+
     }
 }
