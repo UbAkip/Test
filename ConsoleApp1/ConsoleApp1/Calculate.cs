@@ -14,5 +14,6 @@ namespace ConsoleApp1
         {
             return x + x;
         }
+
     }
 }

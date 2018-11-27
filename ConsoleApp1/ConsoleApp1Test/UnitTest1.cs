@@ -1,5 +1,6 @@
 ﻿using System;
 using NUnit.Framework;
+
 namespace ConsoleApp1Test
 {
     [TestFixture]
