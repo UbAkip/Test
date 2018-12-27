@@ -12,7 +12,13 @@ namespace ConsoleApp1
     {
         public int doubleSum(int x)
         {
-            return x + x;
+            return x + x; 
+        }
+
+
+        public double minus(double x, double v)
+        {
+            return x - v;
         }
 
     }
