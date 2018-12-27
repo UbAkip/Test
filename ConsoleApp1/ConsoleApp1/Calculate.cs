@@ -20,6 +20,5 @@ namespace ConsoleApp1
         {
             return x - v;
         }
-    }
-    
+    }   
 }
